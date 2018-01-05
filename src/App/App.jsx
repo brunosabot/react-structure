@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 
-import About from '../routes/About';
-import Home from '../routes/Home';
+import About from '../routes/About/About';
+import Home from '../routes/Home/Home';
 
 import './App.css';
 
