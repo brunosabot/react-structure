@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import StyledInput from '../../styled/Form/Input';
+import UIInput from '../../ui/Form/Input';
 
 class Input extends React.PureComponent {
   constructor(props) {
@@ -23,7 +23,7 @@ class Input extends React.PureComponent {
   }
 
   render() {
-    return <StyledInput {...this.props} onChange={this.handleChange} value={this.state.value} />;
+    return <UIInput {...this.props} onChange={this.handleChange} value={this.state.value} />;
   }
 }
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Input from './Input';
 
-describe('Test styled Input component', () => {
+describe('Test ui Input component', () => {
   it('Renders without crashing', () => {
     const div = document.createElement('div');
 

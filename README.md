@@ -8,7 +8,7 @@ A sample structure for React apps.
 
 ### Functionnal
 
-### Styled
+### UI
 
 ## Dispatchers
 
