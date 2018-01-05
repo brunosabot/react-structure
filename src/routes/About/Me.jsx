@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const About = () => (
   <Fragment>
-    <h1>About</h1>
+    <h1>About me</h1>
     <NavLink to="/">Home</NavLink>
   </Fragment>
 );

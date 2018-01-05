@@ -1,23 +1,18 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { PropTypes } from 'prop-types';
 
-import About from '../routes/About/About';
+import About from '../routes/About';
 import Home from '../routes/Home/Home';
 
 import './App.css';
 
-const App = ({ location }) => (
+const App = () => (
   <div className="App">
-    <Switch location={location} >
-      <Route path="/" component={Home} />
+    <Switch>
+      <Route path="/" component={Home} exact />
       <Route path="/about" component={About} />
     </Switch>
   </div>
 );
-
-App.propTypes = {
-  location: PropTypes.objectOf(PropTypes.any).isRequired,
-};
 
 export default App;
