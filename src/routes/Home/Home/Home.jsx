@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 
-import HomeLogin from "./components/HomeLogin/HomeLogin";
+import HomeLogin from "../components/HomeLogin/HomeLogin";
 
 const Home = () => (
   <Fragment>
