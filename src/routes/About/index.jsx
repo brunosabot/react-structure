@@ -1,8 +1,8 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import About from './About';
-import Me from './Me';
+import About from "./About";
+import Me from "./Me";
 
 const AboutIndex = () => (
   <Switch>
@@ -12,4 +12,3 @@ const AboutIndex = () => (
 );
 
 export default AboutIndex;
-

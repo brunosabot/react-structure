@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const Home = () => (
   <Fragment>

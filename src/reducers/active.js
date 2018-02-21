@@ -1,7 +1,7 @@
-import { TOGGLE_ACTIVE_ACTION } from '../dispatchers/active';
+import { TOGGLE_ACTIVE_ACTION } from "../dispatchers/active";
 
 const defaultState = {
-  active: false,
+  active: false
 };
 
 export default (state = defaultState, action) => {

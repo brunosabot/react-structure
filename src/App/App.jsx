@@ -1,10 +1,10 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import About from '../routes/About';
-import Home from '../routes/Home/Home';
+import About from "../routes/About";
+import Home from "../routes/Home/Home";
 
-import './App.css';
+import "./App.css";
 
 const App = () => (
   <div className="App">
